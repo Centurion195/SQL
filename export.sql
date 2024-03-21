@@ -1,0 +1,1 @@
+SELECT DATE_FORMAT(date('1970-12-31 23:59:59') + interval 123456 second,'%j days %H hours %i minutes %s seconds') as result
